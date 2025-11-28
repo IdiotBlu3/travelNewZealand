@@ -285,7 +285,7 @@ footer a{
 .tour_body, .contactBody{
     margin: 0;
     font-family: 'Abel', sans-serif;
-    background: url(/IMAGES/tour\ background.png);
+    background: url(background.png);
     color: #fff;
 }
 
@@ -658,4 +658,5 @@ button:hover{
     }
         
     
+
 }
