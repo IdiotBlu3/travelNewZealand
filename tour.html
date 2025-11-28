@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Goldman:wght@400;700&family=Londrina+Solid:wght@100;300;400;900&display=swap" rel="stylesheet">
+</head>
+<body class="tour_body">
+    <div class="navbar">
+        <a href="home.htm" class="logo">
+            <img class="logoimg" src="../IMAGES/logo.png" alt="logo">
+        </a>
+
+        <a href="home.htm" class="home" >
+            <i class="fa-solid fa-house homeIcon"></i>
+            <span class="activate">HOME</span>
+        </a>
+
+        <a href="tour.html" class="tour" id="activate">
+            <i class="fa-solid fa-plane tourIcon"></i>
+            <span>TOUR</span>
+        </a>
+
+        <a href="contact.htm" class="contact">
+            <i class="fa-solid fa-phone contactIcon"></i>
+            <span>CONTACT</span>
+        </a>
+        
+        <a href="" class="search">
+            <i class="fa-solid fa-magnifying-glass searchIcon"></i>
+        </a>
+
+        <a href="login.htm" class="login" target="_blank">
+            <i class="fa-solid fa-user loginIcon"></i>
+            <span>LOGIN</span>
+        </a>
+        <a href="login.htm" class="signup" target="_blank">
+            <i class="fa-solid fa-user-plus signupIcon"></i>
+            <span>SIGNUP</span>
+        </a>
+    </div>
+<div class="container">
+    <h1>Hot Destinations</h1>
+
+    <div class="grid">
+        <div class="card">
+            <img src="https://imgs.search.brave.com/JoF_J-Y-BEN9YYEgTn_S4PVPdKfTIbi-cS8VUVVke2s/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAyMC8w/NS8yNC8wNy8zNC9u/ZXctemVhbGFuZC01/MjEyODI3XzY0MC5q/cGc" alt="Auckland City">
+            <div class="card-content">
+                <h3>Auckland City</h3>
+                <p>Auckland, known as the City of Sails, is New Zealand’s most vibrant and diverse metropolitan centre—an exciting blend of modern city life.</p>
+            </div>
+
+            <a class="book" href="#">
+                <div>$799</div>
+            </a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1595212665227-e8fdd2fb35c0?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHF1ZWVuc3Rvd258ZW58MHx8MHx8fDA=" alt="Queenstown">
+            <div class="card-content">
+                <h3>Queenstown</h3>
+                <p>Nested beside crystal-clear Lake Wakatipu and framed by majestic mountains, Queenstown is the ultimate playground for thrill-seekers and nature lovers alike.</p>
+            </div>
+            <a class="book" href="#">
+                <div>$899</div>
+            </a>
+
+        </div>
+
+        <div class="card">
+            <img src="https://imgs.search.brave.com/h0139ZH4igm1IBAKsFCYrNOb4fDn3Idyd2kNTvySRlE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9scC1j/bXMtcHJvZHVjdGlv/bi5pbWdpeC5uZXQv/MjAxOS0wNi9HZXR0/eUltYWdlcy01MDI2/MTY1OTNfc3VwZXIu/anBnP2F1dG89Zm9y/bWF0LGNvbXByZXNz/JnE9NzImdz0xMDk1/JmZpdD1jcm9wJmNy/b3A9ZmFjZXMsZWRn/ZXM" alt="Christchurch">
+            <div class="card-content">
+                <h3>Christchurch</h3>
+                <p>Christchurch, the largest city in New Zealand’s South Island, is a destination where heritage, resilience, and natural beauty come together to create an inspiring experience.</p>
+            </div>
+            <a class="book" href="#">
+                <div>$879</div>
+            </a>
+        </div>
+
+        <div class="card">
+            <img src="https://www.hobbitontours.com/media/xz5h4mau/hobbiton-movie-set-30.jpg?rxy=0.34563043067915983,0.3623452969579801&width=440&height=330&v=1daddbebea91e10">
+            <div class="card-content">
+                <h3>Hobbiton</h3>
+                <p>Hobbiton sits on a working sheep farm in Matamata. The actual movie set built for The Lord of the Rings and The Hobbit films.</p>
+            </div>
+            <a class="book" href="#">
+                <div>$899</div>
+            </a>
+
+        </div>
+
+        <div class="card">
+            <img src="https://imgs.search.brave.com/xr_vX--iAyOddruT3y9af5jA_uF90sG7n4zKikfcrAs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTIx/Mjg4MjQwL3Bob3Rv/L3N0ZXdhcnQtaXNs/YW5kLW5ldy16ZWFs/YW5kLWEtdmlldy1v/Zi10aGUtaGFsZi1t/b29uLWJheS13aGFy/Zi1kdXJpbmctcHJp/bWUtbWluaXN0ZXIt/am9obi1rZXlzLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1F/OTdxYk9GMDVfVm5J/SGhSNW12LWRnaEZ4/aVNzTzV1YWpRV2JU/X1hpSldrPQ">
+            <div class="card-content">
+                <h3>Stewart Island</h3>
+                <p>Stewart Island is about as “untouched New Zealand” as you can get—quiet, wild, and heavy on wildlife instead of attractions.</p>
+            </div>
+            <a class="book" href="#">
+                <div>$1111</div>
+            </a>
+
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1595212665227-e8fdd2fb35c0?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHF1ZWVuc3Rvd258ZW58MHx8MHx8fDA=" alt="Queenstown">
+            <div class="card-content">
+                <h3>Queenstown</h3>
+                <p>Nested beside crystal-clear Lake Wakatipu and framed by majestic mountains, Queenstown is the ultimate playground for thrill-seekers and nature lovers alike.</p>
+            </div>
+            <a class="book" href="#">
+                <div>$999</div>
+            </a>
+
+        </div>
+    </div>
+
+    <div class="pagination">
+        <a href="#" class="activate">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">...</a>
+    </div>
+</body>
+</html>
